@@ -1,0 +1,73 @@
+body {
+  background-color: cream;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+nav {
+  background-color: lightcream;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100vw;
+  z-index: 1;
+}
+nav ul li {
+  float: right;
+  margin-right: 50px;
+  list-style-type: none;
+}
+#brand {
+  float: left;
+  font-weight: none;
+}
+.nav-link {
+  color: black;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+#brand {
+  color: black;
+  font-size: 15pt;
+}
+.nav-link:hover {
+  color: #267180;
+}
+#brand .nav-link:hover {
+  color: #415091
+}
+h1 {
+  font-size: 60pt;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #267180;
+  text-align: center;
+  height: 30vh;
+}
+#home {
+  margin-top: 0px;
+  position: relative;
+  left: -8px;
+  width: 100vw;
+  height: 40vh;
+  padding-top: 3em;
+  background: url('https://images.unsplash.com/photo-1524252500348-1bb07b83f3be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60') center 75% no-repeat fixed;
+  background-size: cover;
+}
+#about-content {
+  text-align: right;
+  width: 45vw;
+  float: right;
+}
+#about {
+  margin-top 50px;
+  display: inlike-block;
+}
+#about-picture {
+  width: 30vw;
+  float: left;
+}
+#profile-pic {
+  height: 500px;
+  width; 500px;
+  object-fit: cover;
+  border-radius: 
+}
