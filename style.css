@@ -58,7 +58,7 @@ h1 {
   float: right;
 }
 #about {
-  margin-top 50px;
+  margin-top: 50px;
   display: inlike-block;
 }
 #about-picture {
@@ -67,7 +67,6 @@ h1 {
 }
 #profile-pic {
   height: 500px;
-  width; 500px;
-  object-fit: cover;
-  border-radius: 
+  width: 500px;
+  object-fit: cover; 
 }
